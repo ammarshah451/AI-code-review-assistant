@@ -64,5 +64,6 @@ server_log.txt
 pytest_output*.txt
 build_error.txt
 
-# Claude Code
-.claude/
+# Markdown files (except README)
+*.md
+!README.md
