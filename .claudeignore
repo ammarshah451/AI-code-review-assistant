@@ -1,0 +1,117 @@
+# Node.js
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.whl
+
+# Package manager locks (large files)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+poetry.lock
+Pipfile.lock
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+*.bundle.js
+*.bundle.js.map
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+
+# Logs and caches
+*.log
+logs/
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Coverage and testing
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.nyc_output/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large data files
+*.sql
+*.sqlite
+*.db
+*.csv
+*.json.gz
+*.tar.gz
+*.zip
+*.rar
+
+# Media files (usually not needed for code review)
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+*.webp
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# Documentation builds
+docs/_build/
+site/
+
+# Docker
+.docker/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Secrets (shouldn't be read anyway)
+.env
+.env.*
+*.pem
+*.key
